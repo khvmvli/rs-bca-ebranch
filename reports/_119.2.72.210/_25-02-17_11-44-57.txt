@@ -1,0 +1,7 @@
+# Dirsearch started Mon Feb 17 12:00:32 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u 119.2.72.210
+
+503     7KB  https://119.2.72.210/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+503     7KB  https://119.2.72.210/\..\..\..\..\..\..\..\..\..\etc\passwd
+503     7KB  https://119.2.72.210/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+503     7KB  https://119.2.72.210/etc/passwd
+503     7KB  https://119.2.72.210/wavemaker/studioService.download?method=getContent&inUrl=file///etc/passwd
