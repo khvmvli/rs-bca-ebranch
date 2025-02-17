@@ -1,0 +1,2 @@
+https://web.archive.org/web/20240425032745if_/https://ebranch.bca.co.id/.well-known/nodeinfo
+https://web.archive.org/web/20240501172633if_/https://ebranch.bca.co.id/.well-known/nodeinfo

@@ -1,0 +1,2 @@
+https://web.archive.org/web/20240424160927if_/https://ebranch.bca.co.id/.well-known/openid-configuration
+https://web.archive.org/web/20240503023809if_/https://ebranch.bca.co.id/.well-known/openid-configuration

@@ -1,0 +1,2 @@
+https://web.archive.org/web/20240424172337if_/https://ebranch.bca.co.id/.well-known/ai-plugin.json
+https://web.archive.org/web/20240501172944if_/https://ebranch.bca.co.id/.well-known/ai-plugin.json

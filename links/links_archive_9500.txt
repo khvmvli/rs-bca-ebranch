@@ -1,0 +1,2 @@
+https://web.archive.org/web/20240501153733if_/https://ebranch.bca.co.id/.well-known/security.txt
+https://web.archive.org/web/20240510001118if_/https://ebranch.bca.co.id/.well-known/security.txt
