@@ -1,0 +1,73 @@
+package com.bca.smartbranch.dialog;
+
+import android.os.Build;
+import android.os.Bundle;
+import android.text.Html;
+import android.view.View;
+import android.widget.TextView;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
+/* loaded from: classes-dex2jar.jar:com/bca/smartbranch/dialog/MessageDialog.class */
+public class MessageDialog extends BaseDialog {
+    String a;
+    private Bundle b;
+    private Unbinder c;
+    String d;
+    @BindView(2131298883)
+    TextView tvContent;
+    @BindView(2131299615)
+    TextView tvTitle;
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // com.bca.smartbranch.dialog.BaseDialog
+    public void bindViews(View view) {
+        bindViews(view);
+        this.c = ButterKnife.bind(this, view);
+    }
+
+    @OnClick({2131296385})
+    public void close(View view) {
+        getDialog().dismiss();
+    }
+
+    @Override // com.bca.smartbranch.dialog.BaseDialog
+    protected int getContentView() {
+        return 2131493092;
+    }
+
+    @Override // com.bca.smartbranch.dialog.BaseDialog, o.getText, androidx.fragment.app.Fragment
+    public void onDestroyView() {
+        onDestroyView();
+        if (this.b.getBoolean("isMessageSuccess", false)) {
+            getActivity().k();
+        }
+    }
+
+    @Override // androidx.fragment.app.Fragment
+    public void onViewCreated(View view, Bundle bundle) {
+        onViewCreated(view, bundle);
+        Bundle arguments = getArguments();
+        this.b = arguments;
+        this.a = arguments.getString("MessageDialogContent", "");
+        this.d = this.b.getString("MessageDialogTitle", "Info");
+        if (Build.VERSION.SDK_INT >= 24) {
+            this.tvTitle.setText(Html.fromHtml(this.d, 63));
+        } else {
+            this.tvTitle.setText(Html.fromHtml(this.d));
+        }
+        if (Build.VERSION.SDK_INT >= 24) {
+            this.tvContent.setText(Html.fromHtml(this.a, 63));
+        } else {
+            this.tvContent.setText(Html.fromHtml(this.a));
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // com.bca.smartbranch.dialog.BaseDialog
+    public void unbindViews() {
+        unbindViews();
+        this.c.unbind();
+    }
+}

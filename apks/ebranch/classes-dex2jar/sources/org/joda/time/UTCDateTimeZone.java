@@ -1,0 +1,63 @@
+package org.joda.time;
+
+import java.util.SimpleTimeZone;
+import java.util.TimeZone;
+/* loaded from: classes-dex2jar.jar:org/joda/time/UTCDateTimeZone.class */
+final class UTCDateTimeZone extends DateTimeZone {
+    static final DateTimeZone INSTANCE = new UTCDateTimeZone();
+    private static final long serialVersionUID = -3513011772763289092L;
+
+    public UTCDateTimeZone() {
+        super("UTC");
+    }
+
+    @Override // org.joda.time.DateTimeZone, java.lang.Object
+    public final boolean equals(Object obj) {
+        return obj instanceof UTCDateTimeZone;
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final String getNameKey(long j) {
+        return "UTC";
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final int getOffset(long j) {
+        return 0;
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final int getOffsetFromLocal(long j) {
+        return 0;
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final int getStandardOffset(long j) {
+        return 0;
+    }
+
+    @Override // org.joda.time.DateTimeZone, java.lang.Object
+    public final int hashCode() {
+        return getID().hashCode();
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final boolean isFixed() {
+        return true;
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final long nextTransition(long j) {
+        return j;
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final long previousTransition(long j) {
+        return j;
+    }
+
+    @Override // org.joda.time.DateTimeZone
+    public final TimeZone toTimeZone() {
+        return new SimpleTimeZone(0, getID());
+    }
+}

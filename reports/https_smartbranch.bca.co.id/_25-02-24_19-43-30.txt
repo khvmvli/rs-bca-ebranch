@@ -1,0 +1,19 @@
+# Dirsearch started Mon Feb 24 19:45:16 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u https://smartbranch.bca.co.id
+
+403   199B   https://smartbranch.bca.co.id/.ht_wsr.txt
+403   199B   https://smartbranch.bca.co.id/.htaccess.orig
+403   199B   https://smartbranch.bca.co.id/.htaccess.sample
+403   199B   https://smartbranch.bca.co.id/.htaccess_extra
+403   199B   https://smartbranch.bca.co.id/.htaccess_orig
+403   199B   https://smartbranch.bca.co.id/.htaccess_sc
+403   199B   https://smartbranch.bca.co.id/.htaccessBAK
+403   199B   https://smartbranch.bca.co.id/.htaccessOLD
+403   199B   https://smartbranch.bca.co.id/.htaccessOLD2
+403   199B   https://smartbranch.bca.co.id/.htm
+403   199B   https://smartbranch.bca.co.id/.html
+403   199B   https://smartbranch.bca.co.id/.htpasswd_test
+403   199B   https://smartbranch.bca.co.id/.htpasswds
+403   199B   https://smartbranch.bca.co.id/.httr-oauth
+403   199B   https://smartbranch.bca.co.id/.htaccess.save
+403   199B   https://smartbranch.bca.co.id/.htaccess.bak1
+403   199B   https://smartbranch.bca.co.id/cgi-bin/

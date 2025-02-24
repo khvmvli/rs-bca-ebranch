@@ -1,0 +1,16 @@
+package com.mobsandgeeks.saripaar;
+
+import java.lang.annotation.Annotation;
+/* loaded from: classes2-dex2jar.jar:com/mobsandgeeks/saripaar/ContextualAnnotationRule.class */
+public abstract class ContextualAnnotationRule<RULE_ANNOTATION extends Annotation, DATA_TYPE> extends AnnotationRule<RULE_ANNOTATION, DATA_TYPE> {
+    protected ValidationContext mValidationContext;
+
+    public ContextualAnnotationRule(RULE_ANNOTATION rule_annotation, ValidationContext validationContext) {
+        super(rule_annotation);
+        if (validationContext != null) {
+            this.mValidationContext = validationContext;
+            return;
+        }
+        throw new IllegalArgumentException("'validationContext' cannot be null.");
+    }
+}

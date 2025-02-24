@@ -1,0 +1,6 @@
+package com.google.firebase.components;
+/* loaded from: classes2-dex2jar.jar:com/google/firebase/components/R.class */
+public final class R {
+    private R() {
+    }
+}
